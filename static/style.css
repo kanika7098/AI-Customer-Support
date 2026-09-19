@@ -1,0 +1,110 @@
+/* =========================================
+   AI CUSTOMER SUPPORT - PROFESSIONAL UI
+   ========================================= */
+
+/* Main application background */
+.stApp {
+    background: #f5f7fb;
+}
+
+/* Main content area */
+.main .block-container {
+    max-width: 900px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* App title */
+h1 {
+    font-size: 2.2rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 0.3rem !important;
+}
+
+/* Subtitle / description */
+.main .block-container > div > div > div > div p {
+    color: #667085;
+}
+
+/* Chat message containers */
+[data-testid="stChatMessage"] {
+    border-radius: 14px;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.7rem;
+}
+
+/* User message */
+[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]) {
+    background: #eef4ff;
+}
+
+/* Assistant message */
+[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarAssistant"]) {
+    background: #ffffff;
+    border: 1px solid #e4e7ec;
+}
+
+/* Chat input */
+[data-testid="stChatInput"] {
+    border-radius: 14px;
+}
+
+/* Chat input textarea */
+[data-testid="stChatInput"] textarea {
+    font-size: 1rem;
+}
+
+/* Buttons */
+.stButton > button {
+    border-radius: 10px;
+    font-weight: 600;
+    min-height: 42px;
+}
+
+/* Horizontal divider */
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background: #ffffff;
+}
+
+/* Sidebar headings */
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3 {
+    font-weight: 700;
+}
+
+/* Metric cards */
+[data-testid="stMetric"] {
+    background: #ffffff;
+    border: 1px solid #e4e7ec;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+/* Expander */
+[data-testid="stExpander"] {
+    border-radius: 12px;
+}
+
+/* Success / warning / error messages */
+[data-testid="stAlert"] {
+    border-radius: 10px;
+}
+
+/* Mobile adjustment */
+@media (max-width: 768px) {
+
+    .main .block-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    h1 {
+        font-size: 1.8rem !important;
+    }
+}
