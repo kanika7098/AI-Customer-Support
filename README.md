@@ -1,4 +1,4 @@
-\# AI-Powered E-Commerce Customer Support \& Ticketing System
+ AI-Powered E-Commerce Customer Support \& Ticketing System
 
 
 
@@ -10,35 +10,35 @@ The system is designed to answer customer questions using company-specific polic
 
 
 
-\## 🚀 Key Features
+# Key Features
 
 
 
-\* 🤖 AI-powered customer support using Qwen2.5
+ AI-powered customer support using Qwen2.5
 
-\* 🔒 Fully local AI inference using Ollama
+ Fully local AI inference using Ollama
 
-\* 💰 No paid API keys required
+ No paid API keys required
 
-\* 📚 Retrieval-Augmented Generation (RAG)
+ Retrieval-Augmented Generation (RAG)
 
-\* 🔎 FAISS-based semantic search
+ FAISS-based semantic search
 
-\* 🧠 Sentence Transformers embeddings
+ Sentence Transformers embeddings
 
-\* 📦 SQLite-based order lookup
+ SQLite-based order lookup
 
-\* 🎫 Automatic support ticket creation
+ Automatic support ticket creation
 
-\* 👤 Human-agent escalation for unresolved issues
+ Human-agent escalation for unresolved issues
 
-\* 🛡️ Policy-grounded responses to reduce hallucinations
+ Policy-grounded responses to reduce hallucinations
 
-\* 📊 Admin dashboard for ticket management and analytics
+ Admin dashboard for ticket management and analytics
 
-\* 💻 Streamlit web interface
+ Streamlit web interface
 
-\* ⚡ Runs locally on CPU
+ Runs locally on CPU
 
 
 
@@ -46,7 +46,7 @@ The system is designed to answer customer questions using company-specific polic
 
 
 
-\## 🏗️ System Architecture
+#System Architecture
 
 
 
